@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed959831-9424-4d4b-aae7-25219f8209e6" name="Default Changelist" comment="" />
+    <list default="true" id="ed959831-9424-4d4b-aae7-25219f8209e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/AmexStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/StrategyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/ValidationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/VisaStrategy.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +29,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -31,6 +40,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1SEczJZEdOr9Tzf8GZd2Ke4hkDZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -49,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.StrategyDemo">
     <configuration name="ChainOfResponsibilityDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chainofresponsibility.ChainOfResponsibilityDemo" />
       <module name="BehavioralPatterns" />
@@ -63,8 +73,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StrategyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strategy.StrategyDemo" />
+      <module name="BehavioralPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrategyDemo" />
         <item itemvalue="Application.ChainOfResponsibilityDemo" />
       </list>
     </recent_temporary>
