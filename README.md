@@ -5,6 +5,13 @@ Patterns added :
 
 Chain of Responsibility design pattern
 
-Returns same instance
-One constructor method - no args
-Typically No Interface
+ - Returns same instance
+ - One constructor method - no args
+ - Typically No Interface
+
+
+Strategy design pattern
+
+ - Guarantees Algorithm adherence
+ - IoC
+ - Easier implementation
