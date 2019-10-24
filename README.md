@@ -15,3 +15,10 @@ Strategy design pattern
  - Guarantees Algorithm adherence
  - IoC
  - Easier implementation
+
+
+Command design pattern
+
+ - Object per command
+ - Class contains the "what"
+ - Encapsulates action
