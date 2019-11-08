@@ -22,3 +22,10 @@ Command design pattern
  - Object per command
  - Class contains the "what"
  - Encapsulates action
+ 
+ 
+ Interpreter
+ 
+ - Access to properties
+ - Function as methods
+ - Adding new functionality changes every variant

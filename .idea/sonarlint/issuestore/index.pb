@@ -27,3 +27,15 @@ X
 (src/main/java/strategy/StrategyDemo.java,6\f\6f6ff02d2543f4e04bd3e10850ee0f6c412ad2d9
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+[
++src/main/java/command/AllLightsCommand.java,d\1\d13d06d0a868ecd6282777e8335964135b29022b
+R
+"src/main/java/command/Command.java,0\5\0598fc46caab0ea8e5ed30956b47574d612c694f
+V
+&src/main/java/command/CommandDemo.java,3\5\35bdd507f7f11c16ab20730eeed6193f0f321438
+P
+ src/main/java/command/Light.java,c\f\cf70c2c1de6b3155123b601592e96bc6c0fb90aa
+Q
+!src/main/java/command/Switch.java,3\b\3b0a33de260ca884b5793314d4c8876da37c4279
+X
+(src/main/java/command/ToggleCommand.java,0\f\0f1ff883907f571817906f4869293e958c42e4e5
