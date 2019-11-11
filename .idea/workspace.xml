@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed959831-9424-4d4b-aae7-25219f8209e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/0598fc46caab0ea8e5ed30956b47574d612c694f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f1ff883907f571817906f4869293e958c42e4e5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/2870a494f215346c34a944893db750ed91bff53c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35bdd507f7f11c16ab20730eeed6193f0f321438" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3b0a33de260ca884b5793314d4c8876da37c4279" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4cde08e7f1df5835d3fc78db2bc771d03f3c08cd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e224662268e4aa8acd51b372285011b6f8bfee8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6ea7d381dbe3a873d18ca0894800dd53ad1a6cb5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f6ff02d2543f4e04bd3e10850ee0f6c412ad2d9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90dc2bce1fc630bbb68fde59cc1ec5976f7422b9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c392b0d0edff9e0352e436d2fff5e32f800987b9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c6d47ce3cdc8d61de006671771a1b25ad2e0365d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf70c2c1de6b3155123b601592e96bc6c0fb90aa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d13d06d0a868ecd6282777e8335964135b29022b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/AndExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/InterpreterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/OrExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/TerminalExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/BikeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/IteratorDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -89,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InterpreterDemo">
+  <component name="RunManager" selected="Application.IteratorDemo">
     <configuration name="ChainOfResponsibilityDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chainofresponsibility.ChainOfResponsibilityDemo" />
       <module name="BehavioralPatterns" />
@@ -129,6 +109,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Iterator.IteratorDemo" />
+      <module name="BehavioralPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StrategyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strategy.StrategyDemo" />
       <module name="BehavioralPatterns" />
@@ -144,6 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IteratorDemo" />
         <item itemvalue="Application.InterpreterDemo" />
         <item itemvalue="Application.CommandDemo" />
         <item itemvalue="Application.StrategyDemo" />
@@ -165,7 +159,8 @@
       <workItem from="1571137790845" duration="1999000" />
       <workItem from="1571908945615" duration="3625000" />
       <workItem from="1571922804777" duration="612000" />
-      <workItem from="1573201616259" duration="3746000" />
+      <workItem from="1573201616259" duration="3960000" />
+      <workItem from="1573461029149" duration="2529000" />
     </task>
     <task id="LOCAL-00001" summary="Strategy Design Pattern">
       <created>1571304728575</created>
@@ -188,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571912168852</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Interpreter Design Pattern">
+      <created>1573208665912</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573208665912</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +212,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Strategy Design Pattern" />
     <MESSAGE value="Command Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Command Design Pattern" />
+    <MESSAGE value="Interpreter Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interpreter Design Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

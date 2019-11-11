@@ -39,3 +39,13 @@ Q
 !src/main/java/command/Switch.java,3\b\3b0a33de260ca884b5793314d4c8876da37c4279
 X
 (src/main/java/command/ToggleCommand.java,0\f\0f1ff883907f571817906f4869293e958c42e4e5
+\
+,src/main/java/interpreter/AndExpression.java,7\6\766a118e3e4b4dd658f347b2b5f4e750499910bd
+Y
+)src/main/java/interpreter/Expression.java,d\a\da63d1bbc2114dcafe406f71eca3e0d882261de7
+^
+.src/main/java/interpreter/InterpreterDemo.java,9\8\9897b20e403bf8faed3e8941fad337e92a380122
+[
++src/main/java/interpreter/OrExpression.java,e\5\e5409f818fb034d5b8e9076b6a9030246e8b3866
+a
+1src/main/java/interpreter/TerminalExpression.java,b\e\befad437e9a42f85ceb0137bb0739b7b7ba95a03

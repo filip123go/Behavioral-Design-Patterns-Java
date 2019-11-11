@@ -29,3 +29,11 @@ Command design pattern
  - Access to properties
  - Function as methods
  - Adding new functionality changes every variant
+ 
+ 
+ Iterator
+ 
+ - Interface based
+ - Algorithm is removed
+ - No index
+ - Concurrent modification
