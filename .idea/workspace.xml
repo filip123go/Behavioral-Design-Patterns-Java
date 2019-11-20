@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed959831-9424-4d4b-aae7-25219f8209e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/BikeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/IteratorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/memento/Caretaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/memento/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/memento/EmployeeMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/memento/MementoDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chainofresponsibility/CEO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chainofresponsibility/CEO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chainofresponsibility/ChainOfResponsibilityDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chainofresponsibility/ChainOfResponsibilityDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chainofresponsibility/Director.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chainofresponsibility/Director.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chainofresponsibility/Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chainofresponsibility/Handler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chainofresponsibility/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chainofresponsibility/Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chainofresponsibility/RequestType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chainofresponsibility/RequestType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chainofresponsibility/VP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chainofresponsibility/VP.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,10 +56,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -69,20 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IteratorDemo">
-    <configuration name="ChainOfResponsibilityDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chainofresponsibility.ChainOfResponsibilityDemo" />
-      <module name="BehavioralPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chainofresponsibility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MementoDemo">
     <configuration name="CommandDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="command.CommandDemo" />
       <module name="BehavioralPatterns" />
@@ -110,11 +106,26 @@
       </method>
     </configuration>
     <configuration name="IteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Iterator.IteratorDemo" />
       <module name="BehavioralPatterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MementoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="memento.MementoDemo" />
+      <module name="BehavioralPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="memento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,18 +146,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.CommandDemo" />
+      <item itemvalue="Application.InterpreterDemo" />
+      <item itemvalue="Application.IteratorDemo" />
+      <item itemvalue="Application.StrategyDemo" />
+      <item itemvalue="Application.MementoDemo" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MementoDemo" />
         <item itemvalue="Application.IteratorDemo" />
         <item itemvalue="Application.InterpreterDemo" />
         <item itemvalue="Application.CommandDemo" />
         <item itemvalue="Application.StrategyDemo" />
-        <item itemvalue="Application.ChainOfResponsibilityDemo" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\filippidis\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -160,7 +178,10 @@
       <workItem from="1571908945615" duration="3625000" />
       <workItem from="1571922804777" duration="612000" />
       <workItem from="1573201616259" duration="3960000" />
-      <workItem from="1573461029149" duration="2529000" />
+      <workItem from="1573461029149" duration="4101000" />
+      <workItem from="1573570793294" duration="1385000" />
+      <workItem from="1573643576941" duration="1196000" />
+      <workItem from="1574255450136" duration="2068000" />
     </task>
     <task id="LOCAL-00001" summary="Strategy Design Pattern">
       <created>1571304728575</created>
@@ -190,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573208665912</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Iterator Design Pattern">
+      <created>1573464596659</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573464596659</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +241,8 @@
     <MESSAGE value="Strategy Design Pattern" />
     <MESSAGE value="Command Design Pattern" />
     <MESSAGE value="Interpreter Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interpreter Design Pattern" />
+    <MESSAGE value="Iterator Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iterator Design Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

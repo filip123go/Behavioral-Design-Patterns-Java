@@ -37,3 +37,10 @@ Command design pattern
  - Algorithm is removed
  - No index
  - Concurrent modification
+ 
+ 
+ Memento
+ 
+ - State captured
+ - Independent state
+ - Caretaker/History
