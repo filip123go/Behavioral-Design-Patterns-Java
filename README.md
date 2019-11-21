@@ -44,3 +44,10 @@ Command design pattern
  - State captured
  - Independent state
  - Caretaker/History
+ 
+ 
+ Observer
+ 
+ - One-to-Many
+ - Decoupled
+ - Broadcast Communication
