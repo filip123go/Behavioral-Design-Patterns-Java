@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed959831-9424-4d4b-aae7-25219f8209e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/template/OrderTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/template/StoreOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/template/TemplateDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/template/WebOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="ed959831-9424-4d4b-aae7-25219f8209e6" name="Default Changelist" comment="Template Design Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/AtvPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/AtvPartsShippingVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/AtvTartVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/Fender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/Oil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/PartsOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/VisitorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/Wheel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -27,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -50,6 +54,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -57,6 +62,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="visitor" />
       <recent name="template" />
       <recent name="observer" />
       <recent name="command" />
@@ -74,20 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TemplateDemo">
-    <configuration name="InterpreterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interpreter.InterpreterDemo" />
-      <module name="BehavioralPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interpreter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.VisitorDemo">
     <configuration name="IteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -142,20 +135,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VisitorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="visitor.VisitorDemo" />
+      <module name="BehavioralPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.InterpreterDemo" />
       <item itemvalue="Application.IteratorDemo" />
       <item itemvalue="Application.MementoDemo" />
       <item itemvalue="Application.ObserverDemo" />
       <item itemvalue="Application.TemplateDemo" />
+      <item itemvalue="Application.VisitorDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VisitorDemo" />
         <item itemvalue="Application.TemplateDemo" />
         <item itemvalue="Application.ObserverDemo" />
         <item itemvalue="Application.MementoDemo" />
         <item itemvalue="Application.IteratorDemo" />
-        <item itemvalue="Application.InterpreterDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +189,7 @@
       <workItem from="1574413575713" duration="596000" />
       <workItem from="1574426089990" duration="1969000" />
       <workItem from="1575293263774" duration="1926000" />
-      <workItem from="1575376780016" duration="538000" />
+      <workItem from="1575376780016" duration="3458000" />
     </task>
     <task id="LOCAL-00001" summary="Strategy Design Pattern">
       <created>1571304728575</created>
@@ -234,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574327751565</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Template Design Pattern">
+      <created>1575377338290</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575377338290</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +273,8 @@
     <MESSAGE value="Iterator Design Pattern" />
     <MESSAGE value="Memento Design Pattern" />
     <MESSAGE value="Observer Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Observer Design Pattern" />
+    <MESSAGE value="Template Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Template Design Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

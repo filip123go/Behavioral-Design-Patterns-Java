@@ -55,6 +55,13 @@ Command design pattern
  
  Template
  
- - ame algorithm
+ - same algorithm
  - Class based
  - Compile time
+ 
+ 
+ Visitor
+ 
+ - Interfaced based
+ - Externalized changes
+ - Multiple visitors
