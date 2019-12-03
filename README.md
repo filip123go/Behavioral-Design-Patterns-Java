@@ -51,3 +51,10 @@ Command design pattern
  - One-to-Many
  - Decoupled
  - Broadcast Communication
+ 
+ 
+ Template
+ 
+ - ame algorithm
+ - Class based
+ - Compile time

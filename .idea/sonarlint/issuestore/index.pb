@@ -73,3 +73,9 @@ X
 (src/main/java/observer/TabletClient.java,9\c\9ca79477e0184777f6eae5810c2a6a73cc188180
 X
 (src/main/java/observer/ObserverDemo.java,7\3\738821a88dca49a024a45368cdb627466fa3baba
+Y
+)src/main/java/template/OrderTemplate.java,9\3\93e3cd7ecc94d9cb87949c3a2b535bc12f969db2
+X
+(src/main/java/template/TemplateDemo.java,e\6\e68e1afadaa545cfde45f67b34506d9b18537d12
+T
+$src/main/java/template/WebOrder.java,e\e\eee582b9ade00f95a4abf7afdfda82cb598cd33a

@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed959831-9424-4d4b-aae7-25219f8209e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/observer/MessageStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observer/ObserverDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observer/PhoneClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observer/TabletClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/template/OrderTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/template/StoreOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/template/TemplateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/template/WebOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -59,6 +57,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="template" />
       <recent name="observer" />
       <recent name="command" />
     </key>
@@ -75,20 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ObserverDemo">
-    <configuration name="CommandDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="command.CommandDemo" />
-      <module name="BehavioralPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="command.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TemplateDemo">
     <configuration name="InterpreterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interpreter.InterpreterDemo" />
       <module name="BehavioralPatterns" />
@@ -143,20 +129,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TemplateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="template.TemplateDemo" />
+      <module name="BehavioralPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.CommandDemo" />
       <item itemvalue="Application.InterpreterDemo" />
       <item itemvalue="Application.IteratorDemo" />
       <item itemvalue="Application.MementoDemo" />
       <item itemvalue="Application.ObserverDemo" />
+      <item itemvalue="Application.TemplateDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TemplateDemo" />
         <item itemvalue="Application.ObserverDemo" />
         <item itemvalue="Application.MementoDemo" />
         <item itemvalue="Application.IteratorDemo" />
         <item itemvalue="Application.InterpreterDemo" />
-        <item itemvalue="Application.CommandDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +178,12 @@
       <workItem from="1573570793294" duration="1385000" />
       <workItem from="1573643576941" duration="1196000" />
       <workItem from="1574255450136" duration="6836000" />
-      <workItem from="1574327477869" duration="250000" />
+      <workItem from="1574327477869" duration="3974000" />
+      <workItem from="1574345657364" duration="593000" />
+      <workItem from="1574413575713" duration="596000" />
+      <workItem from="1574426089990" duration="1969000" />
+      <workItem from="1575293263774" duration="1926000" />
+      <workItem from="1575376780016" duration="538000" />
     </task>
     <task id="LOCAL-00001" summary="Strategy Design Pattern">
       <created>1571304728575</created>
@@ -223,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574257617306</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Observer Design Pattern">
+      <created>1574327751565</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574327751565</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +259,8 @@
     <MESSAGE value="Interpreter Design Pattern" />
     <MESSAGE value="Iterator Design Pattern" />
     <MESSAGE value="Memento Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Memento Design Pattern" />
+    <MESSAGE value="Observer Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Observer Design Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
